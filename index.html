@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <h3><b>TO-DO WEB APP</b></h3>
+    </header>
+    <main>
+        <center>
+            <div class="task-inp">
+                <input type="text" id="task-inp" placeholder="Enter Task">
+                <button id="add_task_btn">Add Task</button>
+            </div>
+        </center>
+        <div class="row" style="margin: 10px 5px;">
+            <div class="list col-md-6" style="padding-right: 0px;">
+                <center>
+                    <h3>Pending Tasks</h3>
+                    <hr>
+                    <ul id="pending_tasks">
+                    </ul>
+                </center>
+            </div>
+            <div class="list col-md-6" style="padding-left: 0px;">
+                <center>
+                    <h3>Completed Tasks</h3>
+                    <hr>
+                    <ul id="completed_tasks">
+                    </ul>
+                </center>
+            </div>
+        </div>
+    </main>
+  <script src="script.js"></script>
+</body>
+</html>

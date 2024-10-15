@@ -1,0 +1,60 @@
+body { 
+    margin: 0px;
+}
+header{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:100px;
+    background-color: white;
+    text-align: center;
+}
+main{
+    background-image: url(bg-3.jpg);
+    min-height: 552px;
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.task-inp {
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+.task-inp input,button{
+    padding: 10px;
+    font-size: medium;
+    margin: 10px;
+    border-color: transparent;
+    border-radius: 5px;
+}
+.list center{
+    box-sizing: border-box;
+    border: 1px solid white;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    padding: 8px;
+    border-radius: 4px;
+}
+li span{
+    font-size: 20px;
+}
+.complete_btn{
+    background: linear-gradient(to bottom, #99ff99 0%, #00ff00 100%);
+}
+.delete_btn{
+    background: linear-gradient(to bottom, #ff9999 0%, #ff0000 100%);
+}
+.task-actions {
+    display: flex;
+    gap: 5px;
+}
